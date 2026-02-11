@@ -1,0 +1,9 @@
+{
+  "posts": [
+    { "id": "1", "title": "Post 1 Title", "body": "Post 1 Body" },
+    { "id": "2", "title": "Post 2 Title", "body": "Post 2 Body" },
+    { "id": "3", "title": "Post 3 Title", "body": "Post 3 Body" },
+    { "id": "4", "title": "Post 4 Title", "body": "Post 4 Body" },
+    { "id": "5", "title": "Post 5 Title", "body": "Post 5 Body" }
+  ]
+}
