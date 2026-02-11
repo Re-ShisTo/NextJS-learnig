@@ -26,6 +26,9 @@ const Header = () => {
           <Link href="/isr/ODR">ISR-ODR</Link>
         </li>
         <li>
+          <Link href="/isr/posts">ISR Posts</Link>
+        </li>
+        <li>
           <Link href="/rsc">RSC</Link>
         </li>
       </ul>
