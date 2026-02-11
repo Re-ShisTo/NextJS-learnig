@@ -1,5 +1,17 @@
 import getData from "../../../../../lib/getData";
 
+// SSG-Static Site Generation
+export const generateStaticParams = async () => {
+  return [
+    {
+      postId: "1",
+    },
+    {
+      postId: "2",
+    },
+  ];
+};
+
 const page = async ({ params }) => {
   const { postId } = await params;
 
