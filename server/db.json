@@ -4,6 +4,8 @@
     { "id": "2", "title": "Post 2 Title", "body": "Post 2 Body" },
     { "id": "3", "title": "Post 3 Title", "body": "Post 3 Body" },
     { "id": "4", "title": "Post 4 Title", "body": "Post 4 Body" },
-    { "id": "5", "title": "Post 5 Title", "body": "Post 5 Body" }
+    { "id": "5", "title": "Post 5 Title", "body": "Post 5 Body" },
+    { "id": "6", "title": "Post 6 Title", "body": "Post 6 Body" },
+    { "id": "7", "title": "Post 7 Title", "body": "Post 7 Body" }
   ]
 }

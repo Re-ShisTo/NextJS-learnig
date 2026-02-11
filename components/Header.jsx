@@ -20,7 +20,10 @@ const Header = () => {
           <Link href="/hybrid">Hybrid</Link>
         </li>
         <li>
-          <Link href="/isr">ISR</Link>
+          <Link href="/isr/TBR">ISR-TBR</Link>
+        </li>
+        <li>
+          <Link href="/isr/ODR">ISR-ODR</Link>
         </li>
         <li>
           <Link href="/rsc">RSC</Link>
