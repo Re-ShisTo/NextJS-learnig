@@ -1,4 +1,4 @@
-import { cache } from "react";
+import { cache, Suspense } from "react";
 import getData from "../../../lib/getData";
 import SinglePost from "../../../components/SinglePost";
 
@@ -17,8 +17,18 @@ const Hybrid = async () => {
           ))}
         </ul>
       </div>
+
       <hr />
-      <SinglePost />
+
+      <Suspense
+        fallback={
+          <div>
+            <h1>Loading... ... ...</h1>
+          </div>
+        }
+      >
+        <SinglePost />
+      </Suspense>
     </div>
   );
 };

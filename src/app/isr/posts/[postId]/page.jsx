@@ -2,14 +2,11 @@ import getData from "../../../../../lib/getData";
 
 // SSG-Static Site Generation
 export const generateStaticParams = async () => {
-  return [
-    {
-      postId: "1",
-    },
-    {
-      postId: "2",
-    },
-  ];
+  const posts = await getData(`http://localhost:8000/posts`);
+
+  return posts.map((post) => ({
+    postId: String(post.id),
+  }));
 };
 
 const page = async ({ params }) => {
